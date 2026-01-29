@@ -1,6 +1,7 @@
-#profile-title: VLESS for WH
+#profile-title: VLESS by restlycum
+#support-url: https://t.me/restlyconnect
 #profile-update-interval: 24
-#announce: Последнее обновление подписки: 29.01.2026 21:02:12| thx for using
+#announce: Последнее обновление: 29.01.2026 21:02:12
 # Обновлено: 2026-01-29 21:05:16
 # Всего конфигов: 18976
 ##################################################
