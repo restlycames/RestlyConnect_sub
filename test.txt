@@ -1,186 +1,45 @@
-{
-  "version": 2,
-  "servers": [
-    {
-      "name": "Russia 🇷🇺 | Авто",
-      "config": {
-        "dns": {
-          "port": 53,
-          "servers": ["1.1.1.1", "8.8.8.8", {
-            "address": "77.88.8.8",
-            "domains": ["geosite:category-ru"]
-          }],
-          "queryStrategy": "UseIPv4"
-        },
-        "inbounds": [
-          {
-            "tag": "socks",
-            "port": 10808,
-            "listen": "127.0.0.1",
-            "protocol": "socks",
-            "settings": {"udp": true, "auth": "noauth"},
-            "sniffing": {
-              "enabled": true,
-              "routeOnly": false,
-              "destOverride": ["http", "tls", "quic"]
-            }
-          },
-          {
-            "tag": "http",
-            "port": 10809,
-            "listen": "127.0.0.1",
-            "protocol": "http",
-            "settings": {"allowTransparent": false},
-            "sniffing": {
-              "enabled": true,
-              "routeOnly": false,
-              "destOverride": ["http", "tls", "quic"]
-            }
-          }
-        ],
-        "outbounds": [
-          {
-            "tag": "grp-1-m1fmn339ht2",
-            "protocol": "vless",
-            "settings": {
-              "vnext": [{
-                "address": "212.233.96.101",
-                "port": 4443,
-                "users": [{
-                  "id": "c59f075a-b3a1-44e3-9680-375d81e6d8f7",
-                  "flow": "",
-                  "encryption": "none"
-                }]
-              }]
-            },
-            "streamSettings": {
-              "network": "tcp",
-              "security": "reality",
-              "realitySettings": {
-                "publicKey": "-BT-beTCZ_6dr1akzVJLsuXtD6GrvUeSnFw3qYnikQQ",
-                "shortId": "f92954e2e710",
-                "spiderX": "",
-                "serverName": "ads.x5.ru",
-                "fingerprint": "chrome",
-                "show": false
-              }
-            }
-          },
-          {
-            "tag": "direct",
-            "protocol": "freedom"
-          },
-          {
-            "tag": "block",
-            "protocol": "blackhole"
-          }
-        ],
-        "remarks": "Russia 🇷🇺 | Авто",
-        "routing": {
-          "domainMatcher": "hybrid",
-          "domainStrategy": "IPIfNonMatch",
-          "rules": [
-            {
-              "type": "field",
-              "protocol": ["bittorrent"],
-              "outboundTag": "block"
-            },
-            {
-              "ip": ["77.88.8.8"],
-              "outboundTag": "direct"
-            }
-          ]
-        }
+[
+  {
+    "type": "vless",
+    "tag": "russia-auto",
+    "server": "212.233.96.101",
+    "server_port": 4443,
+    "uuid": "c59f075a-b3a1-44e3-9680-375d81e6d8f7",
+    "tls": {
+      "enabled": true,
+      "server_name": "ads.x5.ru",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      },
+      "reality": {
+        "enabled": true,
+        "public_key": "-BT-beTCZ_6dr1akzVJLsuXtD6GrvUeSnFw3qYnikQQ",
+        "short_id": "f92954e2e710"
       }
     },
-    {
-      "name": "Canada 🇨🇦 | Авто",
-      "config": {
-        "dns": {
-          "port": 53,
-          "servers": ["1.1.1.1", "8.8.8.8", {
-            "address": "77.88.8.8",
-            "domains": ["geosite:category-ru"]
-          }],
-          "queryStrategy": "UseIPv4"
-        },
-        "inbounds": [
-          {
-            "tag": "socks",
-            "port": 10808,
-            "listen": "127.0.0.1",
-            "protocol": "socks",
-            "settings": {"udp": true, "auth": "noauth"},
-            "sniffing": {
-              "enabled": true,
-              "routeOnly": false,
-              "destOverride": ["http", "tls", "quic"]
-            }
-          },
-          {
-            "tag": "http",
-            "port": 10809,
-            "listen": "127.0.0.1",
-            "protocol": "http",
-            "settings": {"allowTransparent": false},
-            "sniffing": {
-              "enabled": true,
-              "routeOnly": false,
-              "destOverride": ["http", "tls", "quic"]
-            }
-          }
-        ],
-        "outbounds": [
-          {
-            "tag": "grp-1-wmhfb7wjkvm",
-            "protocol": "vless",
-            "settings": {
-              "vnext": [{
-                "address": "172.66.44.211",
-                "port": 2096,
-                "users": [{
-                  "id": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
-                  "flow": "",
-                  "encryption": "none"
-                }]
-              }]
-            },
-            "streamSettings": {
-              "network": "ws",
-              "wsSettings": {"path": "/"},
-              "security": "tls",
-              "tlsSettings": {
-                "serverName": "ca.adobe-connect.top",
-                "fingerprint": "chrome"
-              }
-            }
-          },
-          {
-            "tag": "direct",
-            "protocol": "freedom"
-          },
-          {
-            "tag": "block",
-            "protocol": "blackhole"
-          }
-        ],
-        "remarks": "Canada 🇨🇦 | Авто",
-        "routing": {
-          "domainMatcher": "hybrid",
-          "domainStrategy": "IPIfNonMatch",
-          "rules": [
-            {
-              "type": "field",
-              "protocol": ["bittorrent"],
-              "outboundTag": "block"
-            },
-            {
-              "ip": ["77.88.8.8"],
-              "outboundTag": "direct"
-            }
-          ]
-        }
-      }
+    "transport": {
+      "type": "tcp"
     }
-  ]
-}
+  },
+  {
+    "type": "vless",
+    "tag": "canada-auto",
+    "server": "172.66.44.211",
+    "server_port": 2096,
+    "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+    "tls": {
+      "enabled": true,
+      "server_name": "ca.adobe-connect.top",
+      "utls": {
+        "enabled": true,
+        "fingerprint": "chrome"
+      }
+    },
+    "transport": {
+      "type": "ws",
+      "path": "/",
+      "headers": {}
+    }
+  }
+]
