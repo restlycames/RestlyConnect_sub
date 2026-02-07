@@ -1,13 +1,186 @@
 {
   "version": 2,
-  "subscriptions": [
+  "servers": [
     {
       "name": "Russia 🇷🇺 | Авто",
-      "config": "ewogICJkbnMiOiB7CiAgICAicG9ydCI6IDUzLAogICAgInNlcnZlcnMiOiBbCiAgICAgICIxLjEuMS4xIiwKICAgICAgIjguOC44LjgiLAogICAgICB7CiAgICAgICAgImFkZHJlc3MiOiAiNzcuODguOC44IiwKICAgICAgICAiZG9tYWlucyI6IFsiZ2Vvc2l0ZTpjYXRlZ29yeS1ydSJdCiAgICAgIH0KICAgIF0sCiAgICAicXVlcnlTdHJhdGVneSI6ICJVc2VJUHY0IgogIH0sCiAgImluYm91bmRzIjogWwogICAgewogICAgICAidGFnIjogInNvY2tzIiwKICAgICAgInBvcnQiOiAxMDgwOCwKICAgICAgImxpc3RlbiI6ICIxMjcuMC4wLjEiLAogICAgICAicHJvdG9jb2wiOiAic29ja3MiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgInVkcCI6IHRydWUsCiAgICAgICAgImF1dGgiOiAibm9hdXRoIgogICAgICB9LAogICAgICAic25pZmZpbmciOiB7CiAgICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAgICJyb3V0ZU9ubHkiOiBmYWxzZSwKICAgICAgICAiZGVzdE92ZXJyaWRlIjogWwogICAgICAgICAgImh0dHAiLAogICAgICAgICAgInRscyIsCiAgICAgICAgICAicXVpYyIKICAgICAgICBdCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0YWciOiAiaHR0cCIsCiAgICAgICJwb3J0IjogMTA4MDksCiAgICAgICJsaXN0ZW4iOiAiMTI3LjAuMC4xIiwKICAgICAgInByb3RvY29sIjogImh0dHAiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgImFsbG93VHJhbnNwYXJlbnQiOiBmYWxzZQogICAgICB9LAogICAgICAic25pZmZpbmciOiB7CiAgICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAgICJyb3V0ZU9ubHkiOiBmYWxzZSwKICAgICAgICAiZGVzdE92ZXJyaWRlIjogWwogICAgICAgICAgImh0dHAiLAogICAgICAgICAgInRscyIsCiAgICAgICAgICAicXVpYyIKICAgICAgICBdCiAgICAgIH0KICAgIH0KICBdLAogICJvdXRib3VuZHMiOiBbCiAgICB7CiAgICAgICJ0YWciOiAiZ3JwLTEtbTFmbW4zMzlodDIiLAogICAgICAicHJvdG9jb2wiOiAidmxlc3MiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgInZuZXh0IjogWwogICAgICAgICAgewogICAgICAgICAgICAiYWRkcmVzcyI6ICIyMTIuMjMzLjk2LjEwMSIsCiAgICAgICAgICAgICJwb3J0IjogNDQ0MywKICAgICAgICAgICAgInVzZXJzIjogWwogICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJpZCI6ICJjNTlmMDc1YS1iM2ExLTQ0ZTMtOTY4MC0zNzVkODFlNmQ4ZjciLAogICAgICAgICAgICAgICAgImZsb3ciOiAiIiwKICAgICAgICAgICAgICAgICJlbmNyeXB0aW9uIjogIm5vbmUiCiAgICAgICAgICAgICAgfQogICAgICAgICAgICBdCiAgICAgICAgICB9CiAgICAgICAgXQogICAgICB9LAogICAgICAic3RyZWFtU2V0dGluZ3MiOiB7CiAgICAgICAgIm5ldHdvcmsiOiAidGNwIiwKICAgICAgICAic2VjdXJpdHkiOiAicmVhbGl0eSIsCiAgICAgICAgInJlYWxpdHlTZXR0aW5ncyI6IHsKICAgICAgICAgICJwdWJsaWNLZXkiOiAiLUJULWJlVENaXzZkcjFha3pWSkxzdVh0RDZHcnZVZVNuRnczcVluaWtRUSIsCiAgICAgICAgICAic2hvcnRJZCI6ICJmOTI5NTRlMmU3MTAiLAogICAgICAgICAgInNwaWRlclgiOiAiIiwKICAgICAgICAgICJzZXJ2ZXJOYW1lIjogImFkcy54NS5ydSIsCiAgICAgICAgICAiZmluZ2VycHJpbnQiOiAiY2hyb21lIiwKICAgICAgICAgICJzaG93IjogZmFsc2UKICAgICAgICB9CiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0YWciOiAiZ3JwLTItNmw2Z2J5dDU2b2MiLAogICAgICAicHJvdG9jb2wiOiAidmxlc3MiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgInZuZXh0IjogWwogICAgICAgICAgewogICAgICAgICAgICAiYWRkcmVzcyI6ICIyMTIuMjMzLjk2LjEwMSIsCiAgICAgICAgICAgICJwb3J0IjogNDQzLAogICAgICAgICAgICAidXNlcnMiOiBbCiAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgImlkIjogImY0NjQzNDI1LTc4YjMtNDRhYy05NTRiLTRhMjE2NzAwMmMyMyIsCiAgICAgICAgICAgICAgICAiZmxvdyI6ICIiLAogICAgICAgICAgICAgICAgImVuY3J5cHRpb24iOiAibm9uZSIKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIF0KICAgICAgICAgIH0KICAgICAgICBdCiAgICAgIH0sCiAgICAgICJzdHJlYW1TZXR0aW5ncyI6IHsKICAgICAgICAibmV0d29yayI6ICJ0Y3AiLAogICAgICAgICJzZWN1cml0eSI6ICJyZWFsaXR5IiwKICAgICAgICAicmVhbGl0eVNldHRpbmdzIjogewogICAgICAgICAgInB1YmxpY0tleSI6ICJyZ3pVLUhsTXpaY2NWNlpqeEx3X0ZzOVB4ZXlyajJOM0hGTWdVUnlqd3djIiwKICAgICAgICAgICJzaG9ydElkIjogImY5Mjk1NGUyZTcxMCIsCiAgICAgICAgICAic3BpZGVyWCI6ICIiLAogICAgICAgICAgInNlcnZlck5hbWUiOiAieWFuZGV4LnJ1IiwKICAgICAgICAgICJmaW5nZXJwcmludCI6ICJjaHJvbWUiLAogICAgICAgICAgInNob3ciOiBmYWxzZQogICAgICAgIH0KICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInRhZyI6ICJkaXJlY3QiLAogICAgICAicHJvdG9jb2wiOiAiZnJlZWRvbSIKICAgIH0sCiAgICB7CiAgICAgICJ0YWciOiAiYmxvY2siLAogICAgICAicHJvdG9jb2wiOiAiYmxhY2tob2xlIgogICAgfQogIF0sCiAgInJlbWFya3MiOiAiUnVzc2lhIOKfkp4g0Jwg0JDQstGC0L4iLAogICJyb3V0aW5nIjogewogICAgImRvbWFpbk1hdGNoZXIiOiAiaHlicmlkIiwKICAgICJkb21haW5TdHJhdGVneSI6ICJJUElmTm9uTWF0Y2giLAogICAgInJ1bGVzIjogWwogICAgICB7CiAgICAgICAgInR5cGUiOiAiZmllbGQiLAogICAgICAgICJwcm90b2NvbCI6IFsiYml0dG9ycmVudCJdLAogICAgICAgICJvdXRib3VuZFRhZyI6ICJibG9jayIKICAgICAgfSwKICAgICAgewogICAgICAgICJpcCI6IFsiNzcuODguOC44Il0sCiAgICAgICAgIm91dGJvdW5kVGFnIjogImRpcmVjdCIKICAgICAgfQogICAgXQogIH0KfQ=="
+      "config": {
+        "dns": {
+          "port": 53,
+          "servers": ["1.1.1.1", "8.8.8.8", {
+            "address": "77.88.8.8",
+            "domains": ["geosite:category-ru"]
+          }],
+          "queryStrategy": "UseIPv4"
+        },
+        "inbounds": [
+          {
+            "tag": "socks",
+            "port": 10808,
+            "listen": "127.0.0.1",
+            "protocol": "socks",
+            "settings": {"udp": true, "auth": "noauth"},
+            "sniffing": {
+              "enabled": true,
+              "routeOnly": false,
+              "destOverride": ["http", "tls", "quic"]
+            }
+          },
+          {
+            "tag": "http",
+            "port": 10809,
+            "listen": "127.0.0.1",
+            "protocol": "http",
+            "settings": {"allowTransparent": false},
+            "sniffing": {
+              "enabled": true,
+              "routeOnly": false,
+              "destOverride": ["http", "tls", "quic"]
+            }
+          }
+        ],
+        "outbounds": [
+          {
+            "tag": "grp-1-m1fmn339ht2",
+            "protocol": "vless",
+            "settings": {
+              "vnext": [{
+                "address": "212.233.96.101",
+                "port": 4443,
+                "users": [{
+                  "id": "c59f075a-b3a1-44e3-9680-375d81e6d8f7",
+                  "flow": "",
+                  "encryption": "none"
+                }]
+              }]
+            },
+            "streamSettings": {
+              "network": "tcp",
+              "security": "reality",
+              "realitySettings": {
+                "publicKey": "-BT-beTCZ_6dr1akzVJLsuXtD6GrvUeSnFw3qYnikQQ",
+                "shortId": "f92954e2e710",
+                "spiderX": "",
+                "serverName": "ads.x5.ru",
+                "fingerprint": "chrome",
+                "show": false
+              }
+            }
+          },
+          {
+            "tag": "direct",
+            "protocol": "freedom"
+          },
+          {
+            "tag": "block",
+            "protocol": "blackhole"
+          }
+        ],
+        "remarks": "Russia 🇷🇺 | Авто",
+        "routing": {
+          "domainMatcher": "hybrid",
+          "domainStrategy": "IPIfNonMatch",
+          "rules": [
+            {
+              "type": "field",
+              "protocol": ["bittorrent"],
+              "outboundTag": "block"
+            },
+            {
+              "ip": ["77.88.8.8"],
+              "outboundTag": "direct"
+            }
+          ]
+        }
+      }
     },
     {
       "name": "Canada 🇨🇦 | Авто",
-      "config": "ewogICJkbnMiOiB7CiAgICAicG9ydCI6IDUzLAogICAgInNlcnZlcnMiOiBbCiAgICAgICIxLjEuMS4xIiwKICAgICAgIjguOC44LjgiLAogICAgICB7CiAgICAgICAgImFkZHJlc3MiOiAiNzcuODguOC44IiwKICAgICAgICAiZG9tYWlucyI6IFsiZ2Vvc2l0ZTpjYXRlZ29yeS1ydSJdCiAgICAgIH0KICAgIF0sCiAgICAicXVlcnlTdHJhdGVneSI6ICJVc2VJUHY0IgogIH0sCiAgImluYm91bmRzIjogWwogICAgewogICAgICAidGFnIjogInNvY2tzIiwKICAgICAgInBvcnQiOiAxMDgwOCwKICAgICAgImxpc3RlbiI6ICIxMjcuMC4wLjEiLAogICAgICAicHJvdG9jb2wiOiAic29ja3MiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgInVkcCI6IHRydWUsCiAgICAgICAgImF1dGgiOiAibm9hdXRoIgogICAgICB9LAogICAgICAic25pZmZpbmciOiB7CiAgICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAgICJyb3V0ZU9ubHkiOiBmYWxzZSwKICAgICAgICAiZGVzdE92ZXJyaWRlIjogWwogICAgICAgICAgImh0dHAiLAogICAgICAgICAgInRscyIsCiAgICAgICAgICAicXVpYyIKICAgICAgICBdCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0YWciOiAiaHR0cCIsCiAgICAgICJwb3J0IjogMTA4MDksCiAgICAgICJsaXN0ZW4iOiAiMTI3LjAuMC4xIiwKICAgICAgInByb3RvY29sIjogImh0dHAiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgImFsbG93VHJhbnNwYXJlbnQiOiBmYWxzZQogICAgICB9LAogICAgICAic25pZmZpbmciOiB7CiAgICAgICAgImVuYWJsZWQiOiB0cnVlLAogICAgICAgICJyb3V0ZU9ubHkiOiBmYWxzZSwKICAgICAgICAiZGVzdE92ZXJyaWRlIjogWwogICAgICAgICAgImh0dHAiLAogICAgICAgICAgInRscyIsCiAgICAgICAgICAicXVpYyIKICAgICAgICBdCiAgICAgIH0KICAgIH0KICBdLAogICJvdXRib3VuZHMiOiBbCiAgICB7CiAgICAgICJ0YWciOiAiZ3JwLTEtd21oZmI3d2prdm0iLAogICAgICAicHJvdG9jb2wiOiAidmxlc3MiLAogICAgICAic2V0dGluZ3MiOiB7CiAgICAgICAgInZuZXh0IjogWwogICAgICAgICAgewogICAgICAgICAgICAiYWRkcmVzcyI6ICIxNzIuNjYuNDQuMjExIiwKICAgICAgICAgICAgInBvcnQiOiAyMDk2LAogICAgICAgICAgICAidXNlcnMiOiBbCiAgICAgICAgICAgICAgewogICAgICAgICAgICAgICAgImlkIjogIjY4NmM2MmQ5LTE3YTctNDNjOS1hNDBhLWY2NzQ3ZGY2MGE5ZiIsCiAgICAgICAgICAgICAgICAiZmxvdyI6ICIiLAogICAgICAgICAgICAgICAgImVuY3J5cHRpb24iOiAibm9uZSIKICAgICAgICAgICAgICB9CiAgICAgICAgICAgIF0KICAgICAgICAgIH0KICAgICAgICBdCiAgICAgIH0sCiAgICAgICJzdHJlYW1TZXR0aW5ncyI6IHsKICAgICAgICAibmV0d29yayI6ICJ3cyIsCiAgICAgICAgIndzU2V0dGluZ3MiOiB7CiAgICAgICAgICAicGF0aCI6ICIvIgogICAgICAgIH0sCiAgICAgICAgInNlY3VyaXR5IjogInRscyIsCiAgICAgICAgInRsc1NldHRpbmdzIjogewogICAgICAgICAgInNlcnZlck5hbWUiOiAiY2EuYWRvYmUtY29ubmVjdC50b3AiLAogICAgICAgICAgImZpbmdlcnByaW50IjogImNocm9tZSIKICAgICAgICB9CiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0YWciOiAiZGlyZWN0IiwKICAgICAgInByb3RvY29sIjogImZyZWVkb20iCiAgICB9LAogICAgewogICAgICAidGFnIjogImJsb2NrIiwKICAgICAgInByb3RvY29sIjogImJsYWNraG9sZSIKICAgIH0KICBdLAogICJyZW1hcmtzIjogIkNhbmFkYSDin5CQ4oCTINCh0LDQstC0IiwKICAicm91dGluZyI6IHsKICAgICJkb21haW5NYXRjaGVyIjogImh5YnJpZCIsCiAgICAiZG9tYWluU3RyYXRlZ3kiOiAiSVBJZk5vbk1hdGNoIiwKICAgICJydWxlcyI6IFsKICAgICAgewogICAgICAgICJ0eXBlIjogImZpZWxkIiwKICAgICAgICAicHJvdG9jb2wiOiBbImJpdHRvcnJlbnQiXSwKICAgICAgICAib3V0Ym91bmRUYWciOiAiYmxvY2siCiAgICAgIH0sCiAgICAgIHsKICAgICAgICAiaXAiOiBbIjc3Ljg4LjguOCJdLAogICAgICAgICJvdXRib3VuZFRhZyI6ICJkaXJlY3QiCiAgICAgIH0KICAgIF0KICB9Cn0="
+      "config": {
+        "dns": {
+          "port": 53,
+          "servers": ["1.1.1.1", "8.8.8.8", {
+            "address": "77.88.8.8",
+            "domains": ["geosite:category-ru"]
+          }],
+          "queryStrategy": "UseIPv4"
+        },
+        "inbounds": [
+          {
+            "tag": "socks",
+            "port": 10808,
+            "listen": "127.0.0.1",
+            "protocol": "socks",
+            "settings": {"udp": true, "auth": "noauth"},
+            "sniffing": {
+              "enabled": true,
+              "routeOnly": false,
+              "destOverride": ["http", "tls", "quic"]
+            }
+          },
+          {
+            "tag": "http",
+            "port": 10809,
+            "listen": "127.0.0.1",
+            "protocol": "http",
+            "settings": {"allowTransparent": false},
+            "sniffing": {
+              "enabled": true,
+              "routeOnly": false,
+              "destOverride": ["http", "tls", "quic"]
+            }
+          }
+        ],
+        "outbounds": [
+          {
+            "tag": "grp-1-wmhfb7wjkvm",
+            "protocol": "vless",
+            "settings": {
+              "vnext": [{
+                "address": "172.66.44.211",
+                "port": 2096,
+                "users": [{
+                  "id": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
+                  "flow": "",
+                  "encryption": "none"
+                }]
+              }]
+            },
+            "streamSettings": {
+              "network": "ws",
+              "wsSettings": {"path": "/"},
+              "security": "tls",
+              "tlsSettings": {
+                "serverName": "ca.adobe-connect.top",
+                "fingerprint": "chrome"
+              }
+            }
+          },
+          {
+            "tag": "direct",
+            "protocol": "freedom"
+          },
+          {
+            "tag": "block",
+            "protocol": "blackhole"
+          }
+        ],
+        "remarks": "Canada 🇨🇦 | Авто",
+        "routing": {
+          "domainMatcher": "hybrid",
+          "domainStrategy": "IPIfNonMatch",
+          "rules": [
+            {
+              "type": "field",
+              "protocol": ["bittorrent"],
+              "outboundTag": "block"
+            },
+            {
+              "ip": ["77.88.8.8"],
+              "outboundTag": "direct"
+            }
+          ]
+        }
+      }
     }
   ]
 }
