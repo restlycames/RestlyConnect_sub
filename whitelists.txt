@@ -1,7 +1,7 @@
 #profile-title: Белые списки
 #support-url: https://t.me/restlyconnect
 #profile-update-interval: 24
-#announce: UPD: 11.02.2026 21:20 | тгк @restlyconnect
+#announce: UPD: 11.02.2026 21:21 | тгк @restlyconnect
 ################################
 
 vless://d9dc0172-2bb6-4ada-8d5a-f182297be5b9@51.250.65.209:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg&security=reality&sid=048fe5c8be4bb687&sni=api-maps.yandex.ru&type=tcp#1. 🇷🇺 Russia @restlyconnect
